@@ -24,7 +24,6 @@ $(document).ready(function() {
     }
 
 	$("#add-food").on("click", function(event) {
-		event.preventDefault();
 		var food = $("#food-input").val().trim()
 		foodTopics.push(food);
 		$("#food-input").val("");
